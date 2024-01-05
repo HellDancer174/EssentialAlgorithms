@@ -2,7 +2,7 @@
 using Numeric;
 
 Console.WriteLine("Hello, World!");
-PrintNext(() => new RandomNumber());
+PrintNext(() => new PeerRandomNumber(1, 20));
 
 
 

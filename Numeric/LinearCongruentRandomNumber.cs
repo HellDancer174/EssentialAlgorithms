@@ -3,7 +3,7 @@
 /// <summary>
 /// Линейный конгруэнтный генератор
 /// </summary>
-public struct RandomNumber
+public struct LinearCongruentRandomNumber
 {
     private static int n = 0;
     private static int a = 7;
@@ -13,7 +13,7 @@ public struct RandomNumber
 
     private readonly int value;
 
-    public RandomNumber()
+    public LinearCongruentRandomNumber()
     {
         var c = (a * n + b);
         value = c % m;
